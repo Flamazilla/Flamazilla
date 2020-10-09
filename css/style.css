@@ -1,0 +1,81 @@
+body {
+	background-color: #e8d5e7;
+	margin: 2%;
+}
+
+h1 {
+	background-color: #cc47a4;
+	color: #e3ccdc;
+	font-size: 200%;
+}
+
+header, footer {
+	text-align: center;
+	padding-bottom: 10px;
+	background-color: #8c415b;
+	background: -webkit-linear-gradient(#8c415b, #ba758d);
+	background: -moz-linear-gradient(#8c415b, #ba758d);
+	background: -ms-linear-gradient(#8c415b, #ba758d);
+	background: -o-linear-gradient(#8c415b, #ba758d);
+}
+
+nav a {
+	display: inline-block;
+	font-size: 170%;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #ed64cb;
+	width: 200px;
+	margin: 2px;
+	padding: 2px;
+}
+
+nav a:hover, nav a:focus {
+	background-color: #692b59;
+	color: #d4abc9;
+}
+
+nav a:active {
+	border: 4px dashed #2e272c;
+}
+
+h2 {
+	background-color: #b357a2;
+	color: #ebd1e6;
+	padding-left: 12px;
+}
+
+section {
+	display: inline-block;
+	width: 30%;
+	float: left;
+	margin: 1%;
+}
+
+ul {
+	list-style-image: url("../images/pumpkin.png");
+}
+
+details {
+	font-style: italic;
+}
+
+summary {
+	font-style: normal;
+}
+
+img {
+	width: 125px;
+}
+
+header, footer, h2, nav a {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+footer {
+	padding-top: 20px;
+	clear: both;
+}
